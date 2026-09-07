@@ -1,0 +1,24 @@
+{
+  "appId": "com.campusbudgetpro.app",
+  "appName": "Campus Budget Pro",
+  "webDir": "build",
+  "server": {
+    "androidScheme": "https"
+  },
+  "ios": {
+    "preferredConfig": "release"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "android/app/debug.keystore",
+      "keystorePassword": "android",
+      "keystoreAlias": "androiddebugkey",
+      "keystoreAliasPassword": "android"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
